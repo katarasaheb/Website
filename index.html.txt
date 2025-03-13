@@ -8,29 +8,68 @@
 </head>
 <body>
   <header>
-    <nav>
-      <h1>KitchIN</h1>
-      <ul>
-        <li><a href="#problem">The Problem</a></li>
-        <li><a href="#solution">The Solution</a></li>
-        <li><a href="#signup">Join the Revolution</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav>
+    <h1>KitchIN</h1>
+    <ul>
+      <li><a href="#problem">The Problem</a></li>
+      <li><a href="#solution">Our Solution</a></li>
+      <li><a href="#advantage">The KitchIN Advantage</a></li>
+      <li><a href="#signup">Join the Revolution</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <section id="problem">
-    <h2>The Problem: Canada’s Grocery System is Broken</h2>
-    <p>Canada’s grocery system is expensive, inefficient, and monopolized...</p>
-  </section>
+<section id="problem">
+  <h2>The Problem: Canada’s Grocery System is Broken</h2>
+  <p>Canada’s grocery system is expensive, inefficient, and monopolized. Three companies control 75% of the grocery market, keeping prices artificially high. The biggest issues are:</p>
+  <ul>
+    <li>Lack of Competition: Big chains control pricing, reducing affordability.</li>
+    <li>Outdated Supply Chains: Long, inefficient distribution channels increase costs.</li>
+    <li>US Trade Dependency: Tariffs and import costs make groceries more expensive.</li>
+    <li>High Supermarket Overhead: The cost of running physical stores is passed on to you.</li>
+  </ul>
+</section>
 
-  <section id="solution">
-    <h2>Our Solution: A Smarter, Leaner, and More Sustainable Grocery System</h2>
-    <p>KitchIN is Canada’s first grocery super app...</p>
-  </section>
 
-  <footer>
-    <p>&copy; 2025 KitchIN</p>
-  </footer>
+<section id="solution">
+  <h2>Our Solution: A Smarter, Leaner, and More Sustainable Grocery System</h2>
+  <p>KitchIN is Canada’s first grocery super app, built on a dark store network to make shopping faster, cheaper, and more efficient.</p>
+  <ul>
+    <li>Direct-from-manufacturer procurement for lower prices and fresher food.</li>
+    <li>Hyperlocal fulfillment centers that cut costs and deliver groceries in minutes.</li>
+    <li>AI-powered personalization to make shopping smarter.</li>
+    <li>No traditional ads – we invest in content-driven engagement instead.</li>
+    <li>Independent from US supply chains, securing Canadian grocery independence.</li>
+  </ul>
+</section>
+
+<section id="advantage">
+  <h2>The KitchIN Advantage: Better for Customers, Better for Investors</h2>
+  <h3>For Customers:</h3>
+  <ul>
+    <li>Personalized AI Shopping – Smart recommendations tailored to your diet & habits.</li>
+    <li>Local Sourcing, Sustainable Choices – Fresh, farm-to-table produce with a lower carbon footprint.</li>
+    <li>Superfast Delivery – Groceries at your doorstep in minutes.</li>
+    <li>Innovative Shopping Experience – AR/VR-powered immersive browsing.</li>
+  </ul>
+  <h3>For Investors:</h3>
+  <ul>
+    <li>Disrupting a $100B Industry – We’re reshaping the future of food.</li>
+    <li>Scalable, Tech-Driven Model – AI and automation for lean, high-margin operations.</li>
+    <li>Built for National & Global Expansion – Ready to grow across Canada and beyond.</li>
+    <li>First-Mover Advantage – The only dark store grocery network in Canada.</li>
+  </ul>
+</section>
+
+
+<section id="signup">
+  <h2>Join the Grocery Revolution</h2>
+  <form action="your-google-sheet-script" method="POST">
+    <label for="email">Enter your email to join the revolution:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Join Now</button>
+  </form>
+</section>
 
   <script src="script.js"></script>
 </body>
