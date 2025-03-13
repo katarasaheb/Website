@@ -6,26 +6,31 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #121212;
   color: #ffffff;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
   color: #e1e1e1;
+  font-weight: 600;
 }
 
 /* Hero Section */
-.hero-container {
+#hero {
+  position: relative;
   text-align: center;
-  padding: 50px;
-  background-color: #1a1a1a;
+  background: linear-gradient(to right, #1a1a1a, #111);
+  color: #ffffff;
+  padding: 120px 20px;
 }
 
 .hero-container h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+  font-size: 4rem;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hero-container p {
@@ -41,23 +46,24 @@ h1, h2, h3 {
   color: #fff;
   border-radius: 5px;
   font-size: 1.1rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .cta-button:hover {
   background-color: #0097a7;
+  transform: scale(1.05);
 }
 
-/* About Section */
-#about, #mission, #disruption {
-  padding: 50px;
+/* Section Styling */
+.section {
+  padding: 50px 20px;
   background-color: #1f1f1f;
   margin: 20px 0;
 }
 
 h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
 }
 
 p {
@@ -65,18 +71,17 @@ p {
   margin-bottom: 20px;
 }
 
-/* Validation Section */
-#validation ul {
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-#validation li {
-  font-size: 1.1rem;
+ul li {
+  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
-/* Footer */
+/* Footer Section */
 footer {
   text-align: center;
   padding: 20px;
@@ -85,4 +90,13 @@ footer {
 
 footer p {
   font-size: 1rem;
+}
+
+footer a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
