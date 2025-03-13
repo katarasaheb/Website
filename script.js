@@ -1,8 +1,3 @@
-// Simple JavaScript for form submission handling or animation
-document.querySelectorAll('form').forEach(form => {
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        alert('Thank you for signing up!');
-    });
+document.querySelector('.cta-button').addEventListener('click', function () {
+  alert('Thank you for joining the revolution! We’ll be in touch soon.');
 });
-
