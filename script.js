@@ -1,13 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const elements = document.querySelectorAll('.animate-on-scroll');
-
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('is-visible');
-            }
-        });
-    }, { threshold: 0.5 });
-
-    elements.forEach(element => observer.observe(element));
+// Basic script for scroll animations or any interactive elements
+document.addEventListener('DOMContentLoaded', () => {
+    const hero = document.querySelector('.hero');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            hero.classList.add('scrolled');
+        } else {
+            hero.classList.remove('scrolled');
+        }
+    });
 });
